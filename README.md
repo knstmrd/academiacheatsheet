@@ -20,7 +20,7 @@
 * `git tag -l` - list tags
 * `git checkout tags/<tag_name>` - checkout specific tag (add `-b <branch_name>` to checkout to a new branch)
 
-* Matplotlib
+# Matplotlib
 
 * `ax.tick_params(axis='both', labelsize=tick_size)` - set size of tick labels
 * `ax.legend(fontsize=legend_size, ncol=2, framealpha=1.0)` - 2-column legend, no transparency

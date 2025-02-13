@@ -26,8 +26,14 @@
 * `ax.legend(fontsize=legend_size, ncol=2, framealpha=1.0)` - 2-column legend, no transparency
 * `ax.set_axisbelow(True)` - set Z-order of ticks and grid below others
 
+# Packages
+
+* `https://github.com/lincolnloop/python-qrcode` - create QR codes from Python
+
 # Websites
 
 * https://www.when2meet.com/ - scheduling meetings
 * https://cassi.cas.org/ - journal name abbreviations
 * https://beej.us/guide/bggit/html/split/ - Git guide
+* https://croppdf.com - crop whitespace from PDFs
+* https://smallpdf.com - compress PDFs

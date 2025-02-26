@@ -11,6 +11,8 @@
 * `tar czfv name_of_archive.tar.gz name_of_directory_to_compress` - tarball and compress a directory
 * `ffmpeg -framerate 3 -start_number 1 -i prefix_%d.png -pix_fmt yuv420p out.mp4` - convert all
     images with names `prefix_1.png`, `prefix_2.png` into a mp4 video with a framerate of 3 fps
+* `tmux new -s mysession` - create new tmux session with name `mysession`
+* `tmux attach -t mysession` - attach to tmux session `mysession`
 
 # Git
 
@@ -25,10 +27,11 @@
 * `ax.tick_params(axis='both', labelsize=tick_size)` - set size of tick labels
 * `ax.legend(fontsize=legend_size, ncol=2, framealpha=1.0)` - 2-column legend, no transparency
 * `ax.set_axisbelow(True)` - set Z-order of ticks and grid below others
+* `from matplotlib.ticker import MaxNLocator; ax.yaxis.set_major_locator(MaxNLocator(integer=True))` - set ticks on Y axis to be integers only
 
 # Packages
 
-* `https://github.com/lincolnloop/python-qrcode` - create QR codes from Python
+* https://github.com/lincolnloop/python-qrcode - create QR codes from Python
 
 # Websites
 
@@ -37,3 +40,4 @@
 * https://beej.us/guide/bggit/html/split/ - Git guide
 * https://croppdf.com - crop whitespace from PDFs
 * https://smallpdf.com - compress PDFs
+* https://tmuxcheatsheet.com - tmux cheatsheet

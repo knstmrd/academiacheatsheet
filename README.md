@@ -13,6 +13,7 @@
     images with names `prefix_1.png`, `prefix_2.png` into a mp4 video with a framerate of 3 fps
 * `tmux new -s mysession` - create new tmux session with name `mysession`
 * `tmux attach -t mysession` - attach to tmux session `mysession`
+* `foo | tee output.file` - output `foo` both to `output.file` and `stdout`
 
 # Git
 

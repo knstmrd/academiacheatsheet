@@ -34,6 +34,10 @@
 
 * https://github.com/lincolnloop/python-qrcode - create QR codes from Python
 
+# Misc
+
+* `%!TEX root = ../main.tex` - add to top of file that is getting compiled with LaTeX Workshop in VSCode to hint that `main.tex` should be compiled instead
+
 # Websites
 
 * https://www.when2meet.com/ - scheduling meetings

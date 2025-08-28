@@ -20,8 +20,10 @@
 * `git tag -a v1.0.0 -m 'version 1.0.0'` - create git tag
 * `git push origin tag v1.0.0` - push tag
 * `git branch` - list selected branches
-* `git tag -l` - list tags
+* `git tag -l` or `git tag -n` - list tags
+* `git tag -d 'tag name'` - delete tag
 * `git checkout tags/<tag_name>` - checkout specific tag (add `-b <branch_name>` to checkout to a new branch)
+* `git bisect` - see [documentation](https://git-scm.com/docs/git-bisect)
 
 # Matplotlib
 

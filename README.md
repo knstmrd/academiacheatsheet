@@ -31,6 +31,10 @@
 * `ax.legend(fontsize=legend_size, ncol=2, framealpha=1.0)` - 2-column legend, no transparency
 * `ax.set_axisbelow(True)` - set Z-order of ticks and grid below others
 * `from matplotlib.ticker import MaxNLocator; ax.yaxis.set_major_locator(MaxNLocator(integer=True))` - set ticks on Y axis to be integers only
+* `plt.rcParams["text.usetex"] = True` - use Tex
+* `plt.rcParams["font.family"] = "serif"` - serif fonts
+* `plt.rcParams["font.serif"] = ["Computer Modern Roman"]` - CMR font
+* `plt.rcParams["axes.linewidth"] = 0.8` - thinner axes
 
 # Packages
 

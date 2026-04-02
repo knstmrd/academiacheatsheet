@@ -14,6 +14,7 @@
 * `tmux new -s mysession` - create new tmux session with name `mysession`
 * `tmux attach -t mysession` - attach to tmux session `mysession`
 * `foo | tee output.file` - output `foo` both to `output.file` and `stdout`
+* `sudo dpkg -i package.deb` - install Linux package from file
 
 # Git
 

@@ -53,3 +53,4 @@
 * https://croppdf.com - crop whitespace from PDFs
 * https://smallpdf.com - compress PDFs
 * https://tmuxcheatsheet.com - tmux cheatsheet
+* https://myhdf5.hdfgroup.org - explore HDF5 files in browser

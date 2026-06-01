@@ -25,6 +25,7 @@
 * `git tag -d 'tag name'` - delete tag
 * `git checkout tags/<tag_name>` - checkout specific tag (add `-b <branch_name>` to checkout to a new branch)
 * `git bisect` - see [documentation](https://git-scm.com/docs/git-bisect)
+* `git merge --squash <feature branch>` - merge branch into current one, squashing commits
 
 # Matplotlib
 

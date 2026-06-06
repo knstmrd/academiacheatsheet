@@ -15,6 +15,7 @@
 * `tmux attach -t mysession` - attach to tmux session `mysession`
 * `foo | tee output.file` - output `foo` both to `output.file` and `stdout`
 * `sudo dpkg -i package.deb` - install Linux package from file
+* `du -ahx . | sort -rh | head -5` - find largest files and directories
 
 # Git
 
